@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Daugiagijis/1.0.0": {
+        "dependencies": {
+          "WinForm.Inspector.Tool": "1.0.0.9"
+        },
+        "runtime": {
+          "Daugiagijis.dll": {}
+        }
+      },
+      "MouseKeyHook/5.6.0": {
+        "runtime": {
+          "lib/net40/Gma.System.MouseKeyHook.dll": {
+            "assemblyVersion": "5.6.130.0",
+            "fileVersion": "5.6.130.0"
+          }
+        }
+      },
+      "WinForm.Inspector.Tool/1.0.0.9": {
+        "dependencies": {
+          "MouseKeyHook": "5.6.0"
+        },
+        "runtime": {
+          "lib/net40/DebugTools.dll": {
+            "assemblyVersion": "1.0.0.9",
+            "fileVersion": "1.0.0.9"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Daugiagijis/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MouseKeyHook/5.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xDNM10IfRED0+k78O9VvY0/suqeNJVg6GttEFPP/N4CEMujwVrfU+UatFN7Rb+gdjqIfhKblz7/nG3pUQmHaJg==",
+      "path": "mousekeyhook/5.6.0",
+      "hashPath": "mousekeyhook.5.6.0.nupkg.sha512"
+    },
+    "WinForm.Inspector.Tool/1.0.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sIfo7+HsRPKbK7hflY8TuJnx0wlRrAx5Jz5eR3TxfziRaHdTsk6GplOujvvuGjOyrWqrJC2eK7ASAohqc4wMmw==",
+      "path": "winform.inspector.tool/1.0.0.9",
+      "hashPath": "winform.inspector.tool.1.0.0.9.nupkg.sha512"
+    }
+  }
+}
